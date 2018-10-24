@@ -3,12 +3,12 @@
 **1. Create a facebook application**
 
     Goto developer.facebook.com
-    Login with your credential.
+    Login with your faceboob credential.
     Create New App, it will give you an Application ID for your new App.
     
 **2. Create Angular Application using Angular CLI**   
     
-**3. Install angular-6-social-login and setup Facebook in your app**  
+**3. Install angular-6-social-login and setting up Facebook in your app**  
   - npm install --save angular-6-social-login 
   - Import SocialLoginModule, AuthServiceConfig, FacebookLoginProvider from angular-6-social-login in your app.module.ts
   - Add SocialLoginModule in imports array of @Ngmodule decorator in app.module.ts
@@ -33,7 +33,7 @@
                    return config;
               }
               
-
-  **4.**
+   - 
+  **4. **
   
   
