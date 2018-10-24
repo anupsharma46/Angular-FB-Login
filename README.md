@@ -5,9 +5,10 @@
     Login with your credential.
     Create New App, it will give you an Application ID for your new App.
     
+**2. Create Angular Application using Angular CLI**   
     
     
-**Install angular-6-social-login** 
+**3. Install angular-6-social-login** 
 
   Run below command from node terminal.
   
