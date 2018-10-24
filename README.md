@@ -59,10 +59,10 @@
       
    - Put below code in fbLogin.component.html
      
-    <button class="loginBtn loginBtn--facebook" (click)="socialSignIn('facebook')">Login with facebook</button>
+         <button class="loginBtn loginBtn--facebook" (click)="socialSignIn('facebook')">Login with facebook</button>
           
   **5. Compile and Run**
   
-      ng serve --open
+          ng serve --open
   
   
