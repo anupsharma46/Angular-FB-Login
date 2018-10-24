@@ -8,12 +8,9 @@
 **2. Create Angular Application using Angular CLI**   
     
     
-**3. Install angular-6-social-login and setup Facebook in your app** 
-  
-  - npm install --save angular-6-social-login
-  
+**3. Install angular-6-social-login and setup Facebook in your app**  
+  - npm install --save angular-6-social-login 
   - Import SocialLoginModule, AuthServiceConfig, FacebookLoginProvider from angular-6-social-login in your app.module.ts
-  
   - Put your application ID in provide on line 21 in app.module.ts
   
  ****
