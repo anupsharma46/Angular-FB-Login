@@ -34,6 +34,28 @@
               }
               
   **4. Create the components**
+      - In my case, i have created a fbLogin component
+      - Put below code in fbLogin.component.ts 
+      
+            
+          constructor( private socialAuthService: AuthService, private router: Router ) {}
+
+          public socialSignIn(socialPlatform : string) {
+            let socialPlatformProvider;
+            if(socialPlatform == "facebook"){
+              socialPlatformProvider = FacebookLoginProvider.PROVIDER_ID;
+            }
+            this.socialAuthService.signIn(socialPlatformProvider).then(
+                (userData) => {
+                console.log(socialPlatform+" sign in data : " , userData);
+                this.navigateToHomeRoute()
+              }
+            );
+          }
+          navigateToHomeRoute():void{
+            this.router.navigate(['/home']);
+          }
+          
           
   **5. Compile and Run**
   
