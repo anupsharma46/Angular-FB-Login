@@ -63,6 +63,6 @@
           
   **5. Compile and Run**
   
-          ng serve --open
+      ng serve --open
   
   
