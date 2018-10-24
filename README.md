@@ -12,5 +12,4 @@
   - Import SocialLoginModule, AuthServiceConfig, FacebookLoginProvider from angular-6-social-login in your app.module.ts
   - Put your application ID in provide on line 21 in app.module.ts
   
- ****
   
