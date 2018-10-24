@@ -34,8 +34,9 @@
               }
               
   **4. Create the components**
-      - In my case, i have created a fbLogin component
-      - Put below code in fbLogin.component.ts 
+  
+   - In my case, i have created a fbLogin component
+   - Put below code in fbLogin.component.ts 
       
             
           constructor( private socialAuthService: AuthService, private router: Router ) {}
