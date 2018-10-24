@@ -6,6 +6,7 @@
     Create New App, it will give you an Application ID for your new App.
     
 # Install angular-6-social-login. 
-   
+
   Run below command from node terminal.
-    $ npm install --save angular-6-social-login
+  
+  $ npm install --save angular-6-social-login
