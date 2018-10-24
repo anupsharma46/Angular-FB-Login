@@ -35,7 +35,7 @@
               
   **4. Create the components**
   
-   - In my case, i have created a fbLogin component
+   - In my case, i have created a fbLogin and home component
    - Put below code in fbLogin.component.ts 
       
             
@@ -56,7 +56,10 @@
           navigateToHomeRoute():void{
             this.router.navigate(['/home']);
           }
-          
+      
+   - Put below code in fbLogin.component.html
+     
+    <button class="loginBtn loginBtn--facebook" (click)="socialSignIn('facebook')">Login with facebook</button>
           
   **5. Compile and Run**
   
