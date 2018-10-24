@@ -1,11 +1,13 @@
 # Angular-FB-Login
-**Create a facebook application**
+**1. Create a facebook application**
 
-    Goto [Facebook](developer.facebook.com)
+    Goto developer.facebook.com
     Login with your credential.
     Create New App, it will give you an Application ID for your new App.
     
-# Install angular-6-social-login. 
+    
+    
+**Install angular-6-social-login** 
 
   Run below command from node terminal.
   
