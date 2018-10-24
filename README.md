@@ -3,7 +3,7 @@
 **1. Create a facebook application**
 
     Goto developer.facebook.com
-    Login with your faceboob credential.
+    Login with your facebook credential.
     Create New App, it will give you an Application ID for your new App.
     
 **2. Create Angular Application using Angular CLI**   
