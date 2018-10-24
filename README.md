@@ -1,4 +1,5 @@
 # Angular-FB-Login
+
 **1. Create a facebook application**
 
     Goto developer.facebook.com
