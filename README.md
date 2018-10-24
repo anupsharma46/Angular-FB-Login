@@ -33,10 +33,9 @@
                    return config;
               }
               
-  **4. Create the components **
-  
-  
-  **5. Compile and Run **
+  **4. Create the components**
+    
+  **5. Compile and Run**
   
       ng serve --open
   
